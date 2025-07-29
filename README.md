@@ -1,8 +1,7 @@
 To install the configuration go into the directory and run
 ```bash
 nix-shell -p git
-```
-```bash
+git clone https://github.com/FeatherPrince/nixconfig
 sudo nixos-rebuild switch --flake --impure
 ```
 

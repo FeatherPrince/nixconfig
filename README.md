@@ -1,5 +1,7 @@
-# nixconfig
-my nixos configuration
+To install the configuration go into the directory and run
+```
+sudo nixos-rebuild switch --flake --impure
+```
 
 ```mermaid
 flowchart TD

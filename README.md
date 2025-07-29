@@ -1,5 +1,8 @@
 To install the configuration go into the directory and run
+```bash
+nix-shell -p git
 ```
+```bash
 sudo nixos-rebuild switch --flake --impure
 ```
 

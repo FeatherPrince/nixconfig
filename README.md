@@ -4,6 +4,10 @@ nix-shell -p git
 git clone https://github.com/FeatherPrince/nixconfig
 sudo nixos-rebuild switch --flake --impure
 ```
+Query for installed packages
+```bash
+nix-store -q --references /var/run/current-system/sw | cut -d'-' -f2-
+```
 
 ```mermaid
 flowchart TD
